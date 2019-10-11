@@ -1,12 +1,12 @@
+""" TheMoviePredictor script
+Author Maud Sonet
+"""
+
 # module utile pour le script à mettre au début
 import mysql.connector
 import sys
 import argparse
 import csv  
-
-
-# for arg in sys.argv:
-#    print(arg)
 
 
 def connectToDatabase():
